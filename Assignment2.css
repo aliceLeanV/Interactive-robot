@@ -1,0 +1,52 @@
+/* 
+	Author: Alice Lean
+	Date: January 2025
+	Description: Styles for Assignment 2 page
+*/
+
+html { 
+	height: 100%; 
+}
+
+body {
+	min-height: 100%; 
+}
+
+canvas { 
+	display: block;
+	border: 1px solid gray;
+}
+
+section {
+	display: block;
+}
+
+article {
+	border: 1px solid gray;
+	display: block;
+	text-align: center;
+}
+
+@media screen and (min-width: 501px) { /*mobile-first responsive*/
+	section {
+		width: 80%; 
+	}
+	canvas {
+		width: 70%; 
+	}
+	article {
+		width: 100%; 
+	}
+}
+
+@media screen and (max-width: 500px) { 
+	section {
+		width: 90%; 
+	}
+	canvas {
+		width: 80%; 
+	}
+	article {
+		width: 100%; 
+	}
+}

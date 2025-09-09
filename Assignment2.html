@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<title>Assignment2</title>
+		<meta name="author" content="Alice Lean">
+		<link rel="stylesheet" href="Assignment2.css"> 
+	</head>
+
+	<body>
+		
+		<p>
+			<button id="Power">On/Off</button>
+			<button id="Charge">Charge</button>
+		</p>
+		
+		<div id="Task"></div>
+		
+		<canvas id="robot" width="600" height="550"></canvas>
+		
+		<section>
+			<p>Explanation:</p>
+			<p>The robot will take a few seconds to load, to give time for the images to load.</p>
+			<p>When the 'On/Off' button is pressed, the robots eyes will light up to signify it is 'On'. When pressed again, the eyes will turn off to signify 'Off'.</p>
+			<p>When click any part of the canvas, lasers will shoot from the robots eyes to the location clicked. When a new task is done, the laser is cleared off the canvas.</p>
+			<p>However, if the far right or left side of the canvas is clicked, the robot will shift in that direction.</p>
+			<p>If the right or left arm is clicked, that arm will spin for 2 seconds.</p>
+			<p>After 3 tasks have been done, the robot turns itself off.</p>
+			<p>When the 'Charge' button is pressed, you must wait a few seconds until the robot charges fully. The robot will charge if at least 1 task has been done.</p>
+			<p>When the window is resized, the canvas adjusts so it is visible on the screen and the coordinates stay relative. Therefore it is mobile and desktop responsive.</p>
+		</section>
+		
+		<article>
+			<p>Arms image reference: PNG MART (no date) Robot Arm, Motion, Control, Automation, Engineering PNG [<a href="https://www.pngmart.com/image/518307">https://www.pngmart.com/image/518307</a>] (Accessed: 3 January 2025)</p>
+			<p>Legs image reference: Futuer (no date) Prosthesis icon|Freepik [<a href="https://www.freepik.com/icon/prosthesis_6856330">https://www.freepik.com/icon/prosthesis_6856330</a>] (Accessed: 3 January 2025)</p>
+		</article>
+		
+		<script src="./Assignment2.js"></script>
+
+	</body>
+</html>
